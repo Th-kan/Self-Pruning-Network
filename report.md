@@ -47,12 +47,11 @@ The L1 norm penalizes non-zero values, pushing many gate values toward zero. Sin
 ## Results
 Based on execution logs, the following results were achieved:
 
-| Lambda ($\lambda$) | Accuracy (%) | Sparsity (%) | Status |
-| :--- | :--- | :--- | :--- |
-| 0.00010 | 70.89% | 64.37% | Accuracy > Sparsity |
-| **0.00012** | **70.12%** | **71.52%** | **PASS (Target Range)** |
-| 0.00020 | 69.47% | 79.29% | Sparsity > Target |
-| 0.00040 | 70.89% | 91.58% | Aggressive Pruning |
+| Lambda ($\lambda$) | Accuracy (%) | Sparsity (%) |
+| :--- | :--- | :--- |
+| **0.00012** | **70.12%** | **71.52%** | 
+| 0.00013 | 69.62% | 73.75% |
+| 0.00040 | 69.69% | 73.28% |
 
 ---
 
